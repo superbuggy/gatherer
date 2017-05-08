@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-resource.js" charset="utf-8"></script>
+    <script src="./app.js" charset="utf-8"></script>
+  </head>
+  <body ng-app="mtg">
+    <div ng-controller="CardController as vm">
+        <div ng-repeat="card in vm.cards">
+          {{card}}
+        </div>
+    </div>
+
+  </body>
+</html>
