@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.1",
     "express": "^4.15.2",
     "mtg-json": "^1.0.1"
   }
